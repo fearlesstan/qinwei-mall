@@ -3,6 +3,12 @@
 > 毕业设计项目：以「宝鸡擀面皮」为主打产品的跨境电商品牌官网。
 > 纯 HTML + CSS + 原生 JS，零依赖、零外链资源，完全离线可用，内置中 / EN 双语切换。
 
+## 🌐 线上地址（点开即用）
+
+**https://fearlesstan.github.io/qinwei-mall/**
+
+发给任何人（手机、电脑均可），点开就能浏览下单（模拟）。代码仓库：https://github.com/fearlesstan/qinwei-mall
+
 ## 一、怎么打开
 
 直接**双击 `index.html`** 即可在浏览器中打开（推荐 Chrome / Edge）。没有任何服务器依赖，换一台电脑也能直接打开。
