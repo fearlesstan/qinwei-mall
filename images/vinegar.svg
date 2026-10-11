@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+  <defs>
+    <linearGradient id="glassD" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5C4024"/>
+      <stop offset="55%" stop-color="#3A2812"/>
+      <stop offset="100%" stop-color="#241708"/>
+    </linearGradient>
+    <linearGradient id="amberG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9A6828"/>
+      <stop offset="100%" stop-color="#5C3A12"/>
+    </linearGradient>
+  </defs>
+
+  <ellipse cx="180" cy="330" rx="96" ry="14" fill="#5A3A1E" opacity=".12"/>
+
+  <g>
+    <!-- 瓶身 -->
+    <path d="M128 112 h104 a16 16 0 0 1 16 16 v150 a16 16 0 0 1 -16 16 h-104 a16 16 0 0 1 -16 -16 v-150 a16 16 0 0 1 16 -16 Z" fill="url(#glassD)"/>
+    <!-- 醋液 -->
+    <rect x="140" y="128" width="80" height="152" rx="12" fill="url(#amberG)"/>
+    <!-- 玻璃高光 -->
+    <rect x="132" y="122" width="8" height="160" rx="4" fill="#FFFFFF" opacity=".14"/>
+    <path d="M212 130 q4 60 0 140" fill="none" stroke="#FFFFFF" stroke-width="4" opacity=".1" stroke-linecap="round"/>
+    <!-- 标签 -->
+    <rect x="118" y="172" width="124" height="72" rx="10" fill="#FBF6EE" stroke="#E2D2B4" stroke-width="1.6"/>
+    <text x="180" y="204" text-anchor="middle" font-size="23" fill="#201410" font-family="serif" font-weight="bold">岐山香醋</text>
+    <text x="180" y="226" text-anchor="middle" font-size="10.5" letter-spacing="3" fill="#A07C2E">古法酿造 · 500ml</text>
+    <circle cx="214" cy="194" r="13" fill="#B3302A"/>
+    <text x="214" y="200" text-anchor="middle" font-size="13" fill="#FBF6EE" font-family="serif" font-weight="bold">醋</text>
+    <!-- 瓶肩 -->
+    <path d="M144 96 h72 v20 h-72 Z" fill="#3A2812"/>
+    <!-- 瓶盖 -->
+    <rect x="138" y="72" width="84" height="28" rx="9" fill="#B3302A"/>
+    <path d="M150 74 h60 v6 h-60 Z" fill="#D84A34" opacity=".8"/>
+    <!-- 麦穗装饰 -->
+    <g transform="translate(246 150) scale(.85)" stroke="#C39A3B" stroke-width="2.4" fill="none" stroke-linecap="round" opacity=".8">
+      <path d="M12 44V8"/>
+      <path d="M12 8c-5 0-7-3.6-7-7 5 0 7 3.6 7 7zM12 14c-5 0-7-3.6-7-7 5 0 7 3.6 7 7zM12 8c5 0 7-3.6 7-7-5 0-7 3.6-7 7zM12 14c5 0 7-3.6 7-7-5 0-7 3.6-7 7z"/>
+    </g>
+  </g>
+
+  <g>
+    <circle cx="300" cy="62" r="32" fill="#B3302A" stroke="#FBF6EE" stroke-width="3"/>
+    <text x="300" y="75" text-anchor="middle" font-size="30" fill="#FBF6EE" font-family="serif" font-weight="bold">醋</text>
+  </g>
+</svg>

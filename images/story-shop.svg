@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420">
+  <defs>
+    <linearGradient id="skyG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F6EAD2"/>
+      <stop offset="100%" stop-color="#EFDFC2"/>
+    </linearGradient>
+    <linearGradient id="woodG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9A6B40"/>
+      <stop offset="100%" stop-color="#7A4E2A"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="560" height="420" rx="0" fill="url(#skyG)"/>
+
+  <!-- 招牌 -->
+  <rect x="150" y="20" width="260" height="46" rx="9" fill="#FBF6EE" stroke="#DCCBAD" stroke-width="2.4"/>
+  <text x="280" y="51" text-anchor="middle" font-size="27" fill="#201410" font-family="serif" font-weight="bold" letter-spacing="2">老陕面皮坊</text>
+  <rect x="186" y="30" width="12" height="12" rx="2" fill="#B3302A"/><rect x="362" y="30" width="12" height="12" rx="2" fill="#B3302A"/>
+
+  <!-- 灯笼 -->
+  <g>
+    <ellipse cx="108" cy="118" rx="17" ry="20" fill="#C13B2C"/>
+    <rect x="104" y="98" width="8" height="8" rx="2" fill="#C39A3B"/>
+    <path d="M108 138 v10" stroke="#C39A3B" stroke-width="3" stroke-linecap="round"/>
+    <rect x="102" y="146" width="12" height="8" rx="3" fill="#C39A3B"/>
+    <ellipse cx="452" cy="118" rx="17" ry="20" fill="#C13B2C"/>
+    <rect x="448" y="98" width="8" height="8" rx="2" fill="#C39A3B"/>
+    <path d="M452 138 v10" stroke="#C39A3B" stroke-width="3" stroke-linecap="round"/>
+    <rect x="446" y="146" width="12" height="8" rx="3" fill="#C39A3B"/>
+  </g>
+
+  <!-- 竹蒸笼 -->
+  <g>
+    <path d="M300 160 c-6 -16 0 -28 9 -34 c6 -4 3 -14 -2 -20" fill="none" stroke="#FFF" stroke-width="8" stroke-linecap="round" opacity=".6"/>
+    <path d="M330 170 c-4 -14 2 -24 10 -29 c5 -3 2 -12 -2 -17" fill="none" stroke="#FFF" stroke-width="7" stroke-linecap="round" opacity=".45"/>
+    <!-- 第一层 -->
+    <rect x="140" y="286" width="152" height="42" rx="8" fill="#B98E62" stroke="#9A6B40" stroke-width="2"/>
+    <ellipse cx="216" cy="286" rx="76" ry="16" fill="#C9A97F"/>
+    <path d="M150 296 h132 M152 306 h128" stroke="#9A6B40" stroke-width="2" opacity=".5"/>
+    <!-- 第二层 -->
+    <rect x="144" y="248" width="144" height="42" rx="8" fill="#C9A97F" stroke="#B98E62" stroke-width="2"/>
+    <ellipse cx="216" cy="248" rx="72" ry="15" fill="#D4B68A"/>
+    <!-- 第三层 -->
+    <rect x="148" y="210" width="136" height="42" rx="8" fill="#D4B68A" stroke="#C9A97F" stroke-width="2"/>
+    <ellipse cx="216" cy="210" rx="68" ry="14" fill="#E0C9A2"/>
+    <path d="M160 210 c10 -5 20 3 30 -3" stroke="#B98E62" stroke-width="2.4" fill="none" opacity=".6"/>
+  </g>
+
+  <!-- 面皮碗 -->
+  <g>
+    <path d="M66 292 C66 348 112 366 148 366 C184 366 230 348 230 292 Z" fill="#FFFDF7"/>
+    <ellipse cx="148" cy="360" rx="34" ry="6" fill="#E0D0B4"/>
+    <ellipse cx="148" cy="292" rx="70" ry="17" fill="#EFE1C7"/>
+    <path d="M88 290 C92 268 122 260 148 260 C174 260 204 268 208 290 C200 288 192 290 184 288 C176 286 168 290 160 288 C152 286 144 290 136 288 C128 286 120 290 112 288 C104 286 96 289 88 290 Z" fill="#FBF3E0"/>
+    <path d="M108 280 C116 268 180 268 188 280 C184 288 112 288 108 280 Z" fill="#C83826"/>
+    <rect x="130" y="272" width="13" height="11" rx="3.5" fill="#C08A58"/>
+    <rect x="158" y="270" width="13" height="11" rx="3.5" fill="#C9935F"/>
+    <ellipse cx="148" cy="292" rx="82" ry="20" fill="#F7EEDA" stroke="#DCCBAD" stroke-width="2"/>
+    <path d="M66 292 C66 302 104 312 148 312 C192 312 230 302 230 292" fill="none" stroke="#FFFDF7" stroke-width="2" opacity=".7"/>
+    <path d="M238 280 l30 -18 M244 286 l30 -14" stroke="#7A4A2B" stroke-width="4.6" stroke-linecap="round"/>
+  </g>
+
+  <!-- 木桌 -->
+  <rect x="40" y="370" width="480" height="16" rx="8" fill="url(#woodG)"/>
+  <rect x="64" y="386" width="14" height="34" fill="#6E4A2A"/>
+  <rect x="482" y="386" width="14" height="34" fill="#6E4A2A"/>
+
+  <!-- 右侧竖招牌 -->
+  <g>
+    <rect x="414" y="196" width="40" height="164" rx="8" fill="#B3302A"/>
+    <rect x="418" y="200" width="32" height="156" rx="6" fill="none" stroke="#F0D894" stroke-width="1.6"/>
+    <text x="434" y="232" text-anchor="middle" font-size="22" fill="#FBF6EE" font-family="serif" font-weight="bold">擀</text>
+    <text x="434" y="266" text-anchor="middle" font-size="22" fill="#FBF6EE" font-family="serif" font-weight="bold">面</text>
+    <text x="434" y="300" text-anchor="middle" font-size="22" fill="#FBF6EE" font-family="serif" font-weight="bold">皮</text>
+    <rect x="420" y="318" width="28" height="28" rx="6" fill="#C39A3B"/>
+    <text x="434" y="337" text-anchor="middle" font-size="13" fill="#3B2A12" font-family="serif" font-weight="bold">非遗</text>
+  </g>
+
+  <!-- 麦穗 -->
+  <g transform="translate(500 300) scale(.9)" stroke="#C39A3B" stroke-width="3" fill="none" stroke-linecap="round" opacity=".85">
+    <path d="M18 64V14"/>
+    <path d="M18 14c-7 0-10-5-10-9 7 0 10 5 10 9zM18 22c-7 0-10-5-10-9 7 0 10 5 10 9zM18 14c7 0 10-5 10-9-7 0-10 5-10 9zM18 22c7 0 10-5 10-9-7 0-10 5-10 9z"/>
+    <path d="M18 34c-7 0-10-5-10-9 7 0 10 5 10 9zM18 42c-7 0-10-5-10-9 7 0 10 5 10 9zM18 34c7 0 10-5 10-9-7 0-10 5-10 9zM18 42c7 0 10-5 10-9-7 0-10 5-10 9z"/>
+  </g>
+</svg>

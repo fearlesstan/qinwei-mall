@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+  <defs>
+    <linearGradient id="bowlG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFDF7"/>
+      <stop offset="100%" stop-color="#E9DCC6"/>
+    </linearGradient>
+    <linearGradient id="amberG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#A9742C"/>
+      <stop offset="100%" stop-color="#6E4514"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M120 96 c-6 -16 0 -28 9 -35 c6 -4 3 -14 -2 -20" fill="none" stroke="#FFF" stroke-width="7" stroke-linecap="round" opacity=".5"/>
+  <ellipse cx="168" cy="326" rx="130" ry="17" fill="#5A3A1E" opacity=".12"/>
+
+  <!-- 桂花点缀 -->
+  <g fill="#E3B23C" opacity=".85">
+    <circle cx="100" cy="130" r="5"/><circle cx="140" cy="108" r="4"/><circle cx="186" cy="126" r="5"/>
+    <circle cx="90" cy="160" r="3.4"/><circle cx="128" cy="140" r="3"/>
+  </g>
+
+  <!-- 酒瓶 -->
+  <g>
+    <rect x="238" y="104" width="88" height="172" rx="17" fill="url(#amberG)" stroke="#5C3A12" stroke-width="1.6" opacity=".97"/>
+    <rect x="248" y="116" width="8" height="140" rx="4" fill="#FFF" opacity=".18"/>
+    <rect x="260" y="82" width="44" height="28" rx="6" fill="#5C3A12"/>
+    <rect x="254" y="64" width="56" height="24" rx="9" fill="#B3302A"/>
+    <path d="M264 66 h36 v6 h-36 Z" fill="#D84A34" opacity=".8"/>
+    <!-- 标签 -->
+    <rect x="250" y="152" width="64" height="66" rx="9" fill="#FBF6EE" stroke="#E2D2B4" stroke-width="1.4"/>
+    <text x="282" y="188" text-anchor="middle" font-size="20" fill="#201410" font-family="serif" font-weight="bold">稠酒</text>
+    <text x="282" y="206" text-anchor="middle" font-size="9" letter-spacing="2" fill="#A07C2E">黄桂 · 甜醪</text>
+    <circle cx="264" cy="196" r="6" fill="#E3B23C"/>
+  </g>
+
+  <!-- 酒杯 -->
+  <g>
+    <path d="M70 224 C70 282 122 298 160 298 C198 298 250 282 250 224 Z" fill="url(#bowlG)"/>
+    <ellipse cx="160" cy="294" rx="44" ry="6" fill="#E0D0B4"/>
+    <ellipse cx="160" cy="224" rx="78" ry="19" fill="#F8F3E6"/>
+    <ellipse cx="160" cy="226" rx="68" ry="14.5" fill="#FBF7EC"/>
+    <!-- 桂花 -->
+    <g fill="#E3B23C">
+      <circle cx="140" cy="222" r="3"/><circle cx="162" cy="218" r="3"/><circle cx="182" cy="224" r="3"/>
+      <circle cx="150" cy="230" r="2.4"/><circle cx="172" cy="230" r="2.4"/>
+    </g>
+    <!-- 液面高光 -->
+    <path d="M126 220 C140 214 180 214 194 220" fill="none" stroke="#FFF" stroke-width="4" stroke-linecap="round" opacity=".55"/>
+    <ellipse cx="160" cy="224" rx="90" ry="23" fill="#F7EEDA" stroke="#DCCBAD" stroke-width="2"/>
+    <path d="M84 224 C84 238 120 247 160 247 C200 247 236 238 236 224" fill="none" stroke="#FFFDF7" stroke-width="2" opacity=".7"/>
+    <!-- 杯柄 -->
+    <path d="M250 244 c14 -2 22 6 22 16 c0 10 -10 16 -24 14" fill="none" stroke="#E9DCC6" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <circle cx="300" cy="62" r="32" fill="#B3302A" stroke="#FBF6EE" stroke-width="3"/>
+    <text x="300" y="75" text-anchor="middle" font-size="30" fill="#FBF6EE" font-family="serif" font-weight="bold">酒</text>
+  </g>
+</svg>

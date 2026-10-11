@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+  <defs>
+    <linearGradient id="redG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C13B2C"/>
+      <stop offset="100%" stop-color="#9C2419"/>
+    </linearGradient>
+    <linearGradient id="goldG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E4C06A"/>
+      <stop offset="100%" stop-color="#C39A3B"/>
+    </linearGradient>
+  </defs>
+
+  <ellipse cx="180" cy="330" rx="128" ry="17" fill="#5A3A1E" opacity=".12"/>
+
+  <!-- 礼盒 -->
+  <g>
+    <!-- 盒身 -->
+    <rect x="80" y="152" width="200" height="150" rx="10" fill="url(#redG)"/>
+    <path d="M80 162 L110 110 L310 110 L280 162 Z" fill="#D84A34"/>
+    <path d="M80 162 L110 110 L110 162 Z" fill="#A93A26" opacity=".8"/>
+    <path d="M280 162 L310 110 L310 162 Z" fill="#8F231E" opacity=".7"/>
+    <!-- 竖丝带 -->
+    <rect x="162" y="108" width="36" height="194" fill="url(#goldG)"/>
+    <rect x="162" y="108" width="8" height="194" fill="#F0D894" opacity=".5"/>
+    <!-- 横丝带 -->
+    <rect x="80" y="198" width="200" height="36" fill="url(#goldG)"/>
+    <rect x="80" y="198" width="200" height="8" fill="#F0D894" opacity=".5"/>
+    <!-- 蝴蝶结 -->
+    <g>
+      <path d="M180 108 C150 82 116 98 121 126 C125 148 154 150 170 136 Z" fill="url(#goldG)" stroke="#A97F22" stroke-width="1.6"/>
+      <path d="M180 108 C210 82 244 98 239 126 C235 148 206 150 190 136 Z" fill="url(#goldG)" stroke="#A97F22" stroke-width="1.6"/>
+      <circle cx="180" cy="112" r="14" fill="#E4C06A" stroke="#A97F22" stroke-width="1.6"/>
+      <path d="M180 126 l-18 30 M180 126 l20 28" fill="none" stroke="#C39A3B" stroke-width="9" stroke-linecap="round"/>
+    </g>
+    <!-- 礼字印章 -->
+    <circle cx="180" cy="238" r="27" fill="#FBF6EE" stroke="#C39A3B" stroke-width="2.4"/>
+    <text x="180" y="250" text-anchor="middle" font-size="30" fill="#B3302A" font-family="serif" font-weight="bold">礼</text>
+    <!-- 名称条 -->
+    <rect x="112" y="276" width="136" height="17" rx="8.5" fill="#FBF6EE" opacity=".92"/>
+    <text x="180" y="288.5" text-anchor="middle" font-size="10.5" letter-spacing="1" fill="#5C3A12" font-family="serif">三秦风味甄选礼盒</text>
+  </g>
+
+  <g>
+    <circle cx="300" cy="62" r="32" fill="#B3302A" stroke="#FBF6EE" stroke-width="3"/>
+    <text x="300" y="75" text-anchor="middle" font-size="30" fill="#FBF6EE" font-family="serif" font-weight="bold">盒</text>
+  </g>
+</svg>

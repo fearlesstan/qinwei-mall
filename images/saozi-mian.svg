@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+  <defs>
+    <linearGradient id="bowlG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFDF7"/>
+      <stop offset="100%" stop-color="#E9DCC6"/>
+    </linearGradient>
+    <linearGradient id="soupG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D9532B"/>
+      <stop offset="100%" stop-color="#B3391F"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M180 120 c-8 -20 2 -36 12 -44 c8 -6 4 -18 -2 -26" fill="none" stroke="#FFF" stroke-width="7" stroke-linecap="round" opacity=".5"/>
+  <ellipse cx="180" cy="322" rx="118" ry="17" fill="#5A3A1E" opacity=".12"/>
+
+  <g>
+    <path d="M58 268 C58 340 120 358 180 358 C240 358 302 340 302 268 Z" fill="url(#bowlG)"/>
+    <ellipse cx="180" cy="352" rx="48" ry="7" fill="#E0D0B4"/>
+    <!-- 汤面 -->
+    <ellipse cx="180" cy="268" rx="108" ry="22" fill="url(#soupG)"/>
+    <!-- 细面 -->
+    <g fill="none" stroke="#F2E3C0" stroke-width="6" stroke-linecap="round">
+      <path d="M102 258 c22 -12 42 4 60 -6 c26 -14 50 0 70 -8"/>
+      <path d="M98 270 c30 -10 60 2 86 -6"/>
+      <path d="M106 282 c36 -8 66 2 88 -4"/>
+    </g>
+    <!-- 臊子：肉丁 -->
+    <rect x="140" y="240" width="16" height="13" rx="4" fill="#8A5A38" stroke="#6E4226" stroke-width="1.2"/>
+    <rect x="166" y="248" width="16" height="13" rx="4" fill="#97663F" stroke="#6E4226" stroke-width="1.2"/>
+    <rect x="192" y="240" width="16" height="13" rx="4" fill="#8A5A38" stroke="#6E4226" stroke-width="1.2"/>
+    <rect x="216" y="250" width="14" height="12" rx="4" fill="#97663F" stroke="#6E4226" stroke-width="1.2"/>
+    <!-- 豆腐丁 -->
+    <rect x="150" y="258" width="12" height="12" rx="3" fill="#F2E8CF" stroke="#D9C9A8" stroke-width="1.1"/>
+    <rect x="204" y="258" width="12" height="12" rx="3" fill="#F2E8CF" stroke="#D9C9A8" stroke-width="1.1"/>
+    <!-- 胡萝卜丁 -->
+    <rect x="176" y="262" width="11" height="11" rx="3" fill="#E88C3A" stroke="#C26F24" stroke-width="1.1"/>
+    <!-- 蛋皮 -->
+    <path d="M128 252 l10 4 -10 4 z" fill="#F3D54E"/>
+    <path d="M232 246 l10 4 -10 4 z" fill="#F3D54E"/>
+    <!-- 木耳 -->
+    <circle cx="160" cy="270" r="4" fill="#6E4A32"/>
+    <circle cx="212" cy="272" r="4" fill="#6E4A32"/>
+    <!-- 葱花 -->
+    <circle cx="142" cy="280" r="2.4" fill="#5E8C4A"/><circle cx="188" cy="282" r="2.4" fill="#5E8C4A"/>
+    <circle cx="222" cy="280" r="2.4" fill="#5E8C4A"/><circle cx="252" cy="272" r="2.2" fill="#5E8C4A"/>
+    <!-- 油光 -->
+    <path d="M122 260 C140 252 166 250 186 252" fill="none" stroke="#F7A983" stroke-width="4" stroke-linecap="round" opacity=".5"/>
+    <ellipse cx="180" cy="268" rx="122" ry="28" fill="#F7EEDA" stroke="#DCCBAD" stroke-width="2"/>
+    <path d="M74 268 C74 283 122 294 180 294 C238 294 286 283 286 268" fill="none" stroke="#FFFDF7" stroke-width="2" opacity=".7"/>
+  </g>
+
+  <g>
+    <circle cx="300" cy="62" r="32" fill="#B3302A" stroke="#FBF6EE" stroke-width="3"/>
+    <text x="300" y="75" text-anchor="middle" font-size="30" fill="#FBF6EE" font-family="serif" font-weight="bold">臊</text>
+  </g>
+</svg>

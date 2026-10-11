@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+  <defs>
+    <linearGradient id="cakeG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F9F2E0"/>
+      <stop offset="100%" stop-color="#EDDFC0"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M180 96 c-8 -18 2 -32 11 -40 c7 -5 3 -16 -2 -23" fill="none" stroke="#FFF" stroke-width="7" stroke-linecap="round" opacity=".5"/>
+  <ellipse cx="180" cy="322" rx="130" ry="18" fill="#5A3A1E" opacity=".12"/>
+
+  <!-- 盘子 -->
+  <ellipse cx="180" cy="302" rx="142" ry="34" fill="#FBF6EE" stroke="#E2D2B4" stroke-width="2"/>
+  <ellipse cx="180" cy="298" rx="112" ry="24" fill="#F4EAD7"/>
+  <path d="M74 302 C74 318 122 330 180 330 C238 330 286 318 286 302" fill="none" stroke="#FFFDF7" stroke-width="3" opacity=".8"/>
+
+  <!-- 甑糕 -->
+  <g>
+    <path d="M102 292 C106 224 130 194 180 194 C230 194 254 224 258 292 Z" fill="url(#cakeG)"/>
+    <!-- 枣泥层 -->
+    <path d="M106 242 C136 232 224 232 254 242 L254 254 C224 244 136 244 106 254 Z" fill="#B3391F" opacity=".92"/>
+    <path d="M112 268 C142 260 218 260 248 268 L248 278 C218 270 142 270 112 278 Z" fill="#B3391F" opacity=".72"/>
+    <!-- 红枣 -->
+    <g fill="#8F231E" stroke="#6E1713" stroke-width="1.6">
+      <ellipse cx="148" cy="212" rx="10" ry="12"/>
+      <ellipse cx="180" cy="205" rx="10" ry="12"/>
+      <ellipse cx="212" cy="214" rx="10" ry="12"/>
+      <ellipse cx="132" cy="232" rx="9" ry="11"/>
+      <ellipse cx="226" cy="234" rx="9" ry="11"/>
+      <ellipse cx="166" cy="230" rx="8.5" ry="10.5"/>
+    </g>
+    <!-- 高光 -->
+    <ellipse cx="160" cy="206" rx="3.4" ry="4.4" fill="#FFF" opacity=".28"/>
+    <ellipse cx="224" cy="228" rx="3" ry="4" fill="#FFF" opacity=".28"/>
+    <!-- 蜂蜜淋酱 -->
+    <path d="M126 250 C150 242 190 248 214 242 C226 240 238 244 246 240" fill="none" stroke="#E0B34C" stroke-width="5" stroke-linecap="round" opacity=".85"/>
+    <path d="M134 262 C156 256 190 260 210 256" fill="none" stroke="#E0B34C" stroke-width="4" stroke-linecap="round" opacity=".6"/>
+    <!-- 糯米颗粒 -->
+    <circle cx="152" cy="272" r="1.8" fill="#FFFFFF" opacity=".7"/><circle cx="188" cy="276" r="1.8" fill="#FFFFFF" opacity=".7"/>
+    <circle cx="212" cy="270" r="1.8" fill="#FFFFFF" opacity=".7"/>
+  </g>
+
+  <g>
+    <circle cx="300" cy="62" r="32" fill="#B3302A" stroke="#FBF6EE" stroke-width="3"/>
+    <text x="300" y="75" text-anchor="middle" font-size="30" fill="#FBF6EE" font-family="serif" font-weight="bold">甜</text>
+  </g>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360">
+  <defs>
+    <radialGradient id="seaG" cx="50%" cy="46%" r="52%">
+      <stop offset="0%" stop-color="#F7EEDB"/>
+      <stop offset="100%" stop-color="#EEDFC2"/>
+    </radialGradient>
+  </defs>
+
+  <!-- 地球 -->
+  <circle cx="280" cy="180" r="128" fill="url(#seaG)" stroke="#DCCBAD" stroke-width="2.4"/>
+  <ellipse cx="280" cy="180" rx="62" ry="128" fill="none" stroke="#E2D2B4" stroke-width="1.6"/>
+  <ellipse cx="280" cy="180" rx="128" ry="62" fill="none" stroke="#E2D2B4" stroke-width="1.6"/>
+
+  <!-- 美洲大陆 -->
+  <path d="M182 96 C204 84 226 100 218 118 C230 130 224 150 210 152 C214 168 198 182 182 174 C170 186 156 172 162 158 C148 152 150 132 162 124 C162 110 170 102 182 96 Z" fill="#C9B48A" opacity=".85"/>
+  <!-- 亚欧大陆 -->
+  <path d="M316 90 C346 82 372 98 376 124 C390 132 390 158 374 166 C380 182 368 198 348 192 C336 204 316 198 316 182 C300 182 292 166 302 154 C290 150 294 130 306 122 C306 104 312 94 316 90 Z" fill="#C9B48A" opacity=".85"/>
+  <!-- 澳洲 -->
+  <path d="M354 252 C368 246 384 252 386 264 C380 274 362 276 354 266 Z" fill="#C9B48A" opacity=".85"/>
+
+  <!-- 西安原点 -->
+  <circle cx="330" cy="168" r="12" fill="#B3302A" opacity=".35"/>
+  <circle cx="330" cy="168" r="7" fill="#B3302A"/>
+  <text x="330" y="146" text-anchor="middle" font-size="13" fill="#8F231E" font-family="serif" font-weight="bold">西安</text>
+
+  <!-- 航线 -->
+  <g fill="none" stroke="#B3302A" stroke-width="2.6" stroke-dasharray="7 7" opacity=".85" stroke-linecap="round">
+    <path d="M322 158 C270 130 232 118 204 118"/>
+    <path d="M336 176 C362 190 362 228 368 252"/>
+    <path d="M338 160 C366 148 372 136 372 126"/>
+  </g>
+  <!-- 目的地 -->
+  <circle cx="204" cy="118" r="6" fill="#5F7F4E"/>
+  <circle cx="368" cy="252" r="6" fill="#5F7F4E"/>
+  <circle cx="372" cy="126" r="6" fill="#5F7F4E"/>
+
+  <!-- 飞机 -->
+  <g transform="translate(252 130) rotate(-24)">
+    <path d="M0 0 L30 13 L0 22 L-8 8 Z" fill="#5F7F4E"/>
+    <path d="M0 4 L22 11" stroke="#3E5330" stroke-width="2" fill="none"/>
+  </g>
+  <g transform="translate(348 214) rotate(60) scale(.8)">
+    <path d="M0 0 L30 13 L0 22 L-8 8 Z" fill="#5F7F4E"/>
+  </g>
+
+  <!-- 装饰点 -->
+  <g fill="#C9B48A">
+    <circle cx="70" cy="70" r="3"/><circle cx="490" cy="64" r="3"/><circle cx="60" cy="290" r="3"/>
+    <circle cx="500" cy="300" r="3"/><circle cx="280" cy="330" r="3"/><circle cx="120" cy="200" r="2.4"/>
+    <circle cx="450" cy="200" r="2.4"/>
+  </g>
+</svg>
